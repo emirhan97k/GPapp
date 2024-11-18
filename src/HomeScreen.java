@@ -7,7 +7,7 @@ public class HomeScreen {
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
 
-        System.out.println("**WELCOME TO THE HOPE CLINIC GP SYSTEM** \n");
+        System.out.println("WELCOME TO THE HOPE CLINIC GP SYSTEM \n");
 
         System.out.println("Date and Time: \n" + now.format(formatter));
 
